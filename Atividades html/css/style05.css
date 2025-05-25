@@ -6,6 +6,11 @@ Fundo com imagem ou cor.
 Estilo para título (cor, tamanho, negrito).
 Estilo para links (cor e sem sublinhado). --> */
 
+*{
+    margin: 0;
+}
+
+
 @font-face {
     font-family: 'dm';
     src: url(../font/DMSerifDisplay.ttf);
@@ -30,17 +35,18 @@ Estilo para links (cor e sem sublinhado). --> */
     height: 100vh;
    background-size: cover;
 
+
 }
 .titulo_01{
-    color: black;
+
     text-align: center;
     font-family:'dm','bebas' ;
     font-style: italic;
     font-size: 40px;
-    color: black;
+    color: black
 }
 .titulo_02{
-    color: black;
+    color:black;
     
     text-align: center;
     font-family:'anci', 'arial';
@@ -58,4 +64,10 @@ Estilo para links (cor e sem sublinhado). --> */
     text-align: center;
     font-family: 'anci';
     font-size: 19px; 
+    list-style-position: inside;
+}
+.link{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+     text-align: center; 
 }

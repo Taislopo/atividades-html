@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'dm';
+    src: url(../font/DMSerifDisplay.ttf);
+}
+@font-face {
+    font-family: 'karla';
+    src: url(../font/Karla.ttf);
+}
+
+.fundo{
+ align-content: center;
+}
+
+.titulo{
+    font-family: 'dm';
+    font-style: italic;
+    text-align: center;
+}
+.paragrafo{
+    font-family: 'karla';
+    text-align: center;
+}
+.link{
+    color:blue;
+    text-decoration:none;
+    align-items: center;
+    text-align: center;
+}
+.link:hover{
+    color: blueviolet;
+}
