@@ -1,6 +1,17 @@
 * {
     margin: 0;
 }
+.fundo{
+    height: 100vh;
+}
+.grade{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    /* cria colunas e voce tem que colocar a quantidade */
+    grid-template-rows: 500px 500px 500px;
+    /* cria linhas e voce tem que colocar a quatidade */
+}
+
 
 .quadrado-pai {
 /* sempre agrupar as informaçoes que estão juntas */
