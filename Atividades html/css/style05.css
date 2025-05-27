@@ -1,0 +1,73 @@
+/* CSS:
+
+Fonte personalizada.
+Conteúdo centralizado.
+Fundo com imagem ou cor.
+Estilo para título (cor, tamanho, negrito).
+Estilo para links (cor e sem sublinhado). --> */
+
+*{
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'dm';
+    src: url(../font/DMSerifDisplay.ttf);
+}
+@font-face {
+    font-family: 'karla';
+    src: url(../font/Karla.ttf);
+}
+@font-face {
+    font-family: 'bebas';
+    src: url(../font/BebasNeue.ttf);
+}
+@font-face {
+    font-family: 'anci';
+    src: url(../font/AncizarSerif.ttf);
+}
+
+
+.fundo{
+    align-content: center;
+    background-image: url(../img/arvore.webp);
+    height: 100vh;
+   background-size: cover;
+
+
+}
+.titulo_01{
+
+    text-align: center;
+    font-family:'dm','bebas' ;
+    font-style: italic;
+    font-size: 40px;
+    color: black
+}
+.titulo_02{
+    color:black;
+    
+    text-align: center;
+    font-family:'anci', 'arial';
+    font-size: 30px;
+}
+.paragrafo{
+    text-align: center;
+    font-family: 'anci';
+    font-size: 20px;
+    color: black;
+
+}
+.linhas{
+    color: black;
+    text-align: center;
+    font-family: 'anci';
+    font-size: 19px; 
+    list-style-position: inside;
+}
+.link{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+     text-align: center; 
+}
